@@ -1,0 +1,5 @@
+[user]
+	name = rdgao
+	email = r.dg.gao@gmail.com
+[core]
+	excludesfile = /Users/rgao/.gitignore_global
