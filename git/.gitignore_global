@@ -1,3 +1,9 @@
 **.DS_Store
 **.ipynb_checkpoints
 **/__pycache__/**
+
+# jekyll stuff
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
