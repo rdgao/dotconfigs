@@ -21,10 +21,29 @@ export BASH_CONF="bashrc"
 alias ls='ls -lGH'
 alias ll='ls -alGH'
 alias l='ls -lGH'
+
+# server access
+alias ssh_slurm='ssh rgao97@134.2.168.52'
+alias ssh_lajolla='ssh rdgao@134.2.56.188'
+
+# jupyter
 alias jn='jupyter notebook' # start jupyter notebook in default dir (~/Doc/Code)
 alias jn.='jupyter notebook --notebook-dir="."' # start jupyter notebook in pwd
 alias jlab='jupyter lab'
 
+# bundle 
+alias run_jek='bundle exec jekyll serve'
+
+# git shortcuts
+alias gst='git status'
+alias gaa='git add --all'
+alias gca='git commit -am'
+alias gpo='git push origin'
+alias gpl='git pull'
+
+# set default directory
+cd ~/Documents/code/
+conda activate automind
 
 # python path
 # DON'T DO THIS BECAUSE IT WILL CREATE INVISIBLE NAMESPACE CONFLICTS
