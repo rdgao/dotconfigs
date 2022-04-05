@@ -24,7 +24,8 @@ alias l='ls -lGH'
 
 # server access
 alias ssh_slurm='ssh rgao97@134.2.168.52'
-alias ssh_lajolla='ssh rdgao@134.2.56.188'
+alias ssh_lajolla='ssh rdgao@134.2.56.198'
+alias lajolla_jlab='ssh -CNL localhost:8008:localhost:8008 rdgao@134.2.56.198'
 
 # jupyter
 alias jn='jupyter notebook' # start jupyter notebook in default dir (~/Doc/Code)
@@ -32,7 +33,7 @@ alias jn.='jupyter notebook --notebook-dir="."' # start jupyter notebook in pwd
 alias jlab='jupyter lab'
 
 # bundle 
-alias run_jek='bundle exec jekyll serve'
+alias run_jek='bundle exec jekyll serve'S
 
 # git shortcuts
 alias gst='git status'
