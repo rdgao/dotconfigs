@@ -1,8 +1,9 @@
 #!/bin/zsh
 
 # git stuff
-ln -s ~/Documents/code/misc/dotconfigs/git/.gitconfig ~/.gitconfig
-ln -s ~/Documents/code/misc/dotconfigs/git/.gitignore_global ~/.gitignore_global
+ln -s "$(pwd)/git/.gitconfig" ~/.gitconfig
+ln -s "$(pwd)/git/.gitignore_global" ~/.gitignore_global
 
-# bash
-ln -s ~/Documents/code/misc/dotconfigs/bash/.bash_profile ~/.bash_profile
+# bash 
+rm ~/.bash_profile
+ln -s "$(pwd)/bash/.bash_profile" ~/.bash_profile

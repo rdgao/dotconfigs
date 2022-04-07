@@ -3,7 +3,7 @@
 # in .zshrc
 
 
-export BASH_CONF="bashrc"
+# export BASH_CONF="bashrc"
 
 # # Anaconda path
 # export PATH="/Users/rdgao/anaconda3/bin:$PATH"
@@ -15,7 +15,7 @@ export BASH_CONF="bashrc"
 # # bind '"\e[B": history-search-forward'
 
 # # highlight directories red
-# export LSCOLORS="bx"
+export LSCOLORS="bx"
 
 # command shortcuts
 alias ls='ls -lGH'
@@ -23,8 +23,8 @@ alias ll='ls -alGH'
 alias l='ls -lGH'
 
 # server access
-alias ssh_slurm='ssh rgao97@134.2.168.52'
-alias ssh_lajolla='ssh rdgao@134.2.56.198'
+# alias ssh_slurm='ssh rgao97@134.2.168.52'
+# alias ssh_lajolla='ssh rdgao@134.2.56.198'
 alias lajolla_jlab='ssh -CNL localhost:8008:localhost:8008 rdgao@134.2.56.198'
 
 # jupyter
@@ -33,7 +33,7 @@ alias jn.='jupyter notebook --notebook-dir="."' # start jupyter notebook in pwd
 alias jlab='jupyter lab'
 
 # bundle 
-alias run_jek='bundle exec jekyll serve'S
+alias run_jekyll='bundle exec jekyll serve'
 
 # git shortcuts
 alias gst='git status'
@@ -44,7 +44,8 @@ alias gpl='git pull'
 
 # set default directory
 cd ~/Documents/code/
-conda activate automind
+conda activate partypack
+# conda activate automind
 
 # python path
 # DON'T DO THIS BECAUSE IT WILL CREATE INVISIBLE NAMESPACE CONFLICTS
