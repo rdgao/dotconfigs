@@ -1,0 +1,19 @@
+name: hyperbolic
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - torchvision
+  - torchaudio
+  - pytorch
+  - cudatoolkit=11.3
+  - jupyterlab
+  - scikit-learn
+  - matplotlib
+  - scipy
+  - conda
+  - multiprocess
+  - gensim
+  - pandas
+  - jupyter
+prefix: /home/rdgao/miniconda3/envs/hyperbolic
