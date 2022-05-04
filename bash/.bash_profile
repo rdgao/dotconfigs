@@ -14,6 +14,10 @@
 # # bind '"\e[A": history-search-backward'
 # # bind '"\e[B": history-search-forward'
 
+# for scrolling up and down while searching on terminal
+bindkey "^[[A" history-beginning-search-backward
+bindkey "^[[B" history-beginning-search-forward
+
 # # highlight directories red
 export LSCOLORS="bx"
 
